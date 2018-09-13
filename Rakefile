@@ -35,6 +35,6 @@ namespace :db do
 end
 
 desc 'drop into the Pry console'
-task :console => :enviorment do
+task :console => :enviornment do
   Pry.start
 end
