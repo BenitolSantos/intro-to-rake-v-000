@@ -35,5 +35,4 @@ namespace :db do
   task :console => :enviornment do
     Pry.start
   end
-
 end
