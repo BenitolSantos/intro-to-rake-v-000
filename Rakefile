@@ -5,8 +5,8 @@
 namespace :greeting do
   #putting them both under a greeting heading.
   desc 'outputs hello to the terminal' #the description.
-    task :hello do
-    puts "hello from Rake!"
+    task :hello do #the name
+    puts "hello from Rake!" #what it does
   end
 
   desc 'outputs hola to the terminal'
