@@ -22,7 +22,7 @@ namespace :db do
   end
 
   #this is happening in the file
-  #task :environment do
+  # task :environment do
   #  require_relative './config/environment'
-  #end
+  # end
 end
