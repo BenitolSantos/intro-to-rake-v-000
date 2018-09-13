@@ -1,4 +1,4 @@
-#this is Rake
+#this is Rake. Rake is better than bash for creating database tables.
 
 namespace :greeting do
   desc 'outputs hello to the terminal'
