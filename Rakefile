@@ -26,5 +26,8 @@ namespace :db do
   #  require_relative './config/environment'
   # end
 
-  desc ''
+  desc 'seed the database with some dummy data'
+  task :seed do
+    require_relative './db/seeds.rb'
+  end
 end
