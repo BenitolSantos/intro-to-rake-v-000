@@ -3,7 +3,7 @@
 #and rake -T for a list of tasks with their description.
 
 task :environment do
-  require_relative './config/environment'
+  require_relative './config/environment' #./config not .config
 end
 
 namespace :greeting do
