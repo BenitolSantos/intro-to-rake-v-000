@@ -21,6 +21,10 @@ namespace :db do
     Student.create_table
   end
 
+  task :environment do
+    require_relative './config/environment'
+  end
+
   #this is happening in the file
   # task :environment do
   #  require_relative './config/environment'
@@ -31,5 +35,3 @@ namespace :db do
     require_relative './db/seeds.rb'
   end
 end
-
-
